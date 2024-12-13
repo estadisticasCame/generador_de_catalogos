@@ -1,0 +1,9 @@
+streamlit
+pandas
+os
+locale
+calendar
+reportlab
+Pillow
+PyPDF2
+io
