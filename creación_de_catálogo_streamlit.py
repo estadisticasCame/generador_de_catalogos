@@ -150,7 +150,7 @@ if images:
     st.success(f"Se subió la imágen con éxito.")
     for image in images:
         img = Image.open(image)
-        st.image(img, caption=image.name, use_container_width=True)
+        #st.image(img, caption=image.name, use_container_width=True)
         # Convertir la imagen PIL a bytes
         img_buffer = BytesIO()
         img.save(img_buffer, format="PNG")  # Usa el formato adecuado
